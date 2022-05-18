@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(path = "/prajwal", method = {RequestMethod.GET, RequestMethod.POST})
 public class BackendController {
 
+    @GetMapping(path = "/check", produces = "application/json")
+    public String helloCheck() {
+            return "Check Passed";
+    }
+    
     @GetMapping(path = "/get", produces = "application/json")
     public Map<String, String> helloGet() {
             HashMap<String, String> map = new HashMap<>();
