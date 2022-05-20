@@ -59,7 +59,7 @@ jobs:
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: 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 #${{ secrets.GITHUB_TOKEN }}
 
 
       - name: Build, tag, and push image to Github Package #Amazon ECR
