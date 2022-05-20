@@ -21,7 +21,7 @@ env:
   # ECS_CLUSTER: MY_ECS_CLUSTER                 # set this to your Amazon ECS cluster name
   # CONTAINER_NAME: MY_CONTAINER_NAME           # set this to the name of the container in the
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: prajwal/test-aws
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
